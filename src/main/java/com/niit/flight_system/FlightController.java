@@ -18,6 +18,6 @@ public class FlightController {
         List<String> flights = Arrays.asList("NIIT-101 (Lagos)", "NIIT-202 (London)", "NIIT-303 (Dubai)");
         model.addAttribute("activeFlights", flights);
 
-        return "index"; // This looks for index.html in the templates folder
+        return "index"; // This looks for index.html in the templates
     }
 }
