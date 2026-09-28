@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @Controller // Note: Use @Controller for UI, not @RestController
-public class FlightController {
+public cclass FlightController {
 
     @GetMapping("/")
     public String viewDashboard(Model model) {
@@ -18,6 +18,6 @@ public class FlightController {
         List<String> flights = Arrays.asList("NIIT-101 (Lagos)", "NIIT-202 (London)", "NIIT-303 (Dubai)");
         model.addAttribute("activeFlights", flights);
 
-        return "index"; // This looks for index.html in the templates
+        return "index"; // This looks for index.html in the templates folder
     }
 }
